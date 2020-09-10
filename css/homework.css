@@ -1,0 +1,292 @@
+/* 全體 */
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    outline:0;
+    text-decoration:none;
+    }
+
+header{
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-bottom:38px;
+}
+
+/* logo圖片 */
+.header_logo img{
+    width:220px;
+}
+
+.header_container{
+    margin: 0px;
+    margin-top:37px;
+    max-width: 940;
+    flex-wrap: wrap;
+    display:flex;
+}
+
+.header_nav{
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight:700;
+    text-align: center;
+    display:flex;
+    -webkit-box-pack:justify;
+    justify-content:space-between;
+}
+
+.header_nav ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.header_nav li{
+    margin-left: 60px;
+    color:#3f5d45;
+    display:list-item;
+    text-align:-webkit-match-parent;
+}
+
+fas fa-cart{
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.screen_container{
+    margin:0 auto;
+    max-width: 940px;
+    position:relative;
+}
+
+.screen_background{
+    background-image:url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/banner.png);
+    background-size: cover;
+    background-position: 50%;
+    width: 100%;
+    height: 496px;
+}
+
+.product{
+    max-width: 1024px;
+    margin:0 auto;
+    margin-bottom:60px;
+}
+
+.product_container{
+    margin:0 auto;
+    max-width: 940px;
+    display:flex;
+    -webkit-box-pack: justify;
+    justify-content:space-between;
+}
+
+.product_filter{
+    max-width: 300px;
+    text-align: center;
+    font-size:24px;
+    font-weight:700;
+    color:#3f5d45;
+}
+.product_filter li{
+    border:1px solid #eaf0ed;
+    border-top-color: rgb(234, 240, 237);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(234, 240, 237);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(234, 240, 237);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(234, 240, 237);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    cursor:pointer;
+}
+
+.product_filter li{
+    border:1px solid #eaf0ed;
+    padding:16px 64px;
+    display:list-item;
+    text-align: -webkit-match-parent;
+    cursor:pointer;
+}
+.product_filter_dark{
+color:#eaf0ed;
+background-color:#3f5d45;
+padding:16px 64px;
+}
+
+.product_filter_chioce{
+    background-color:#eaf0ed;
+}
+
+.product_list{
+    max-width: 620px;
+}
+
+.product_show{
+    display:flex;
+    -webkit-box-pack:justify;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    margin-bottom:10px;
+}
+
+.subscription{
+    background:#3f5d45;
+}
+
+.subscription_container{
+    margin:0 auto;max-width: 780px;
+    -webkit-box-pack:justify;
+    justify-content:space-between;
+    flex:wrap;
+    padding:38px 0;
+    display:flex;
+    -webkit-box-align:center;
+    align-items:center;
+}
+
+.subscription_left{
+    display:flex;
+    -webkit-box-align:center;
+    align-items:center;
+}
+
+.subscription_left img{
+    margin-right:20px;
+}
+
+.subscription_left span{
+    font-size:24px;
+    color:#eaf0ed;
+}
+
+.subscription_right{
+    display:flex;
+    max-width: 380px;
+    position:relative;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.subscription_right .btn{
+    border:0;
+    background-color: #ffe180;
+    cursor:pointer;
+}
+
+.subscription_right .btn i{
+    padding:10px 20px;
+    font-size: 17px;
+    color:#3f5d45;
+}
+
+.subscription_right input{
+    padding:15px 20px;
+    border:0;
+    width:320px;
+}
+
+.fa-arrow-right{
+    content:url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/arrow_right.png?raw=true);
+}
+
+.subscription_mail{
+    position:absolute;
+    top:25px;
+    transform:translateY(-50%);
+    padding-left:20px;
+    font-size:24px;
+    color:#3f5d45;
+}
+
+.fa-envelope{
+    content:url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/mail-24px.png?raw=true);
+    font-weight: 900;
+}
+
+footer{
+    background-color:#eaf0ed;
+    max-height: 340px;
+    display:block;
+}
+
+.footer_container{
+    max-width: 780px;
+    margin:0 auto;
+}
+
+.footer_contact{
+    padding-top:39px;
+    display:flex;
+    -webkit-box-pack: justify;
+    justify-content:space-between;
+}
+
+.footer_left{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+
+.footer_logo img{
+    width:170px;
+}
+
+.footer_info{
+    color:green;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+p{
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.footer_bottom{
+    display:flex;
+    -webkit-box-pack: justify;
+    justify-content:space-between;
+    margin-top:30px;
+}
+
+.footer_fbline img{
+    width:32px;
+    height:32px;
+    padding-right:8px;
+}
+
+.footer_bottom .copyright{
+    color:green;
+    font-weight: 700;
+    align-self:center;
+}
+
+.footer_bottom .copyright p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
